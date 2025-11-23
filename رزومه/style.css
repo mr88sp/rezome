@@ -1,0 +1,91 @@
+html,body{
+    height:100%;
+    margin:0;
+    background: #000000;
+    color: #ffffff;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.main{
+    max-width:900px;
+    margin:100px auto;
+    padding:25px;
+    background-color: rgba(204, 223, 255, 0.279);
+    border-radius: 50px;
+    box-shadow: 0 8px 30px rgb(149 163 255 / 62%);
+}
+
+
+
+.header{
+    display:grid;
+    grid-template-columns:1fr 160px;
+    gap:18px;align-items:start
+}
+
+
+.photo1{
+    justify-self:end
+}
+
+
+.photo2{
+    width:140px;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+    border:3px solid rgba(11,114,255,.08);
+    box-shadow:0 6px 18px rgba(10,10,20,.06)
+}
+
+
+.shakhss{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100%
+}
+
+
+.family-name{
+    font-size:26px;
+    font-weight:700;
+    margin:0 0 6px
+}
+
+
+.meta{
+    font-size:14px;
+    color:gray;
+    margin:0
+}
+
+
+.tozih{
+    margin-top:18px;
+    padding:18px;
+    border-radius: 50px;
+    background-color: rgb(186 205 255 / 51%);
+}
+
+
+.tozih h3{
+    margin:0 0 8px;
+    font-size:18px
+}
+
+
+.tozih p{
+    margin:0;
+    color:#333;
+    line-height:1.6
+}
+
+.p{
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 3px 3px rgb(108 152 255);
+}
+
+
